@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ['lib']
 
   ## Version 5 needs Ruby 2.2, so we specify an upper bound to stay compatible with system ruby
-  s.add_dependency 'activesupport', '>= 4.0.2', '< 5'
+  s.add_dependency 'activesupport', '>= 4.0.2'
   s.add_dependency 'xcodeproj', '~> 1.2'
 
   s.add_development_dependency 'rake'
